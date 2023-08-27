@@ -1,0 +1,19 @@
+.display-none-style textarea,
+.display-none-style select,
+.display-none-style input
+ {
+    pointer-events: none;
+    border: none;
+}
+
+
+@media (max-width: 576px){
+    .print_invoice .meta {
+        width: 100%;
+    }
+    .print_invoice .items {
+        overflow-x: scroll;
+        /* width: auto; */
+        display: block;
+    }
+}
